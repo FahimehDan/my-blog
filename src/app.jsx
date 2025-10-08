@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks'
-import BannerImage from './components/BannerImage'
+import BannerImage from './components/BannerImage.jsx'
 import './app.css'
 
 export function App() {

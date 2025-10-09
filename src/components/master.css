@@ -1,0 +1,105 @@
+/* === CSS Reset === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* === Global Styles === */
+body {
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+    background-color: #f9fafb;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #111;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #1e40af;
+  }
+  
+  ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+
+/* === course css styles === */
+
+.banner{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h4,h5, h6{
+    margin: 0.3rem auto;
+}
+
+img{
+    margin: 0;
+}
+
+.photo-entry-block{
+    margin: 2rem;
+    width: 80%;
+}
+
+.photo-img{
+    width: 80%;
+}
+

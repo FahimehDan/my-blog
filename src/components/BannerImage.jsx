@@ -1,9 +1,10 @@
 import React from "react";
+import './master.css'
 
 function BannerImage(){
   return(
       <div>
-      <img src="../images/Lyon.jpg" alt="Banner Image" />
+         <img className="banner" src="../images/Lyon.jpg" alt="Banner Image" />
       </div>
   )  
 }
